@@ -17,7 +17,7 @@ Scripts - Used for storing automation scripts that were downloaded from Github.
 Notes - Used for storing any notes you might have.
 
 
-
+![image](https://user-images.githubusercontent.com/80421683/136084419-df1215ad-f740-4361-aedc-b8ccaec5978a.png)
 
 
 
