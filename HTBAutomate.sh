@@ -4,7 +4,7 @@ main() {
   box_name=$1
   ip_address=$2
 
-  mkdir -p "$box_name/Enumeration/WebContent" "$box_name/Enumeration/RPC" "$box_name/Enumeration/SMB" "$box_name/Enumeration/DNS" "$box_name/Enumeration/LDAP" "$box_name/Enumeration/FTP" "$box_name/Enumeration/Usernames-and-Passwords" "$box_name/Enumeration/SystemInfo" "$box_name/Enumeration/Nmap" "$box_name/Exploits" "$box_name/Flags" "$box_name/Notes" "$box_name/Screenshots" "$box_name/Scripts"
+  mkdir -p "$PWD/$box_name/Enumeration/WebContent" "$PWD/$box_name/Enumeration/RPC" "$PWD/$box_name/Enumeration/SMB" "$PWD/$box_name/Enumeration/DNS" "$PWD/$box_name/Enumeration/LDAP" "$PWD/$box_name/Enumeration/FTP" "$PWD/$box_name/Enumeration/Usernames-and-Passwords" "$PWD/$box_name/Enumeration/SystemInfo" "$PWD/$box_name/Enumeration/Nmap" "$PWD/$box_name/Exploits" "$PWD/$box_name/Flags" "$PWD/$box_name/Notes" "$PWD/$box_name/Screenshots" "$PWD/$box_name/Scripts"
   echo "Parent directory and subdirectories created."
 
   if prompt_yes_no "Do you want to download external scripts for automation (e.g linpeas, nmapAutomator)? (y/n): "; then
@@ -21,6 +21,17 @@ main() {
   fi
 }
 
+download_scripts() {
+    cd "$PWD/$box_name/Scripts"
+    git clone https://github.com/carlospolop/PEASS-ng.git
+    git clone https://github.com/rebootuser/LinEnum.git
+    git clone https://github.com/mzet-/linux-exploit-suggester.git
+    git clone https://github.com/diego-treitos/linux-smart-enumeration.git
+    git clone https://github.com/21y4d/nmapAutomator.git
+  
+}
+
+
 prompt_yes_no() {
   read -p "$1" yn
   case $yn in
@@ -36,4 +47,9 @@ prompt_input() {
     echo "Input is required."; prompt_input "$1"
   else
     echo "$input"
+  fi
+}
+
+
+main
 
