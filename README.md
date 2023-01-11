@@ -3,11 +3,6 @@
 HTBAutomate is a simple bash script that automates the initial recon process for HackTheBox machines. It creates multiple directories for you to store any information gathered from the box. Additionally, the script allows you to optionally download other automation scripts (listed at the bottom of the page).
 
 
-![image](https://user-images.githubusercontent.com/80421683/136084419-df1215ad-f740-4361-aedc-b8ccaec5978a.png)
-
-
-
-
 Directory Information:
 
 Enumeration - Contains a variety of subdirectories for specific services that are commonly found on HackTheBox machines. 
