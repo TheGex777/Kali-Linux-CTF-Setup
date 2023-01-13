@@ -4,8 +4,10 @@ main() {
   box_name=$1
   ip_address=$2
 
-  mkdir -p "$PWD/$box_name/Enumeration/WebContent" "$PWD/$box_name/Enumeration/RPC" "$PWD/$box_name/Enumeration/SMB" "$PWD/$box_name/Enumeration/DNS" "$PWD/$box_name/Enumeration/LDAP" "$PWD/$box_name/Enumeration/FTP" "$PWD/$box_name/Enumeration/Usernames-and-Passwords" "$PWD/$box_name/Enumeration/SystemInfo" "$PWD/$box_name/Enumeration/Nmap" "$PWD/$box_name/Exploits" "$PWD/$box_name/Flags" "$PWD/$box_name/Notes" "$PWD/$box_name/Screenshots" "$PWD/$box_name/Scripts"
+  mkdir -p "$PWD/$box_name/Exploits" "$PWD/$box_name/Screenshots" "$PWD/$box_name/Scripts" "$PWD/$box_name/notes"
   echo "Parent directory and subdirectories created."
+  echo "Downloading Recon Template"
+  
 
   if prompt_yes_no "Do you want to download external scripts for automation (e.g linpeas, nmapAutomator)? (y/n): "; then
     echo "Downloading..." 
