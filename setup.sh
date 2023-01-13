@@ -24,7 +24,8 @@ main() {
 
 download_scripts() {
     cd "$PWD/$box_name/Scripts"
-    git clone https://github.com/carlospolop/PEASS-ng.git
+    wget -q https://github.com/carlospolop/PEASS-ng/releases/download/20230108/linpeas.sh
+    wget -q https://github.com/carlospolop/PEASS-ng/releases/download/20230108/winPEASany.exe
     git clone https://github.com/rebootuser/LinEnum.git
     git clone https://github.com/mzet-/linux-exploit-suggester.git
     git clone https://github.com/diego-treitos/linux-smart-enumeration.git
@@ -53,4 +54,3 @@ prompt_input() {
 
 
 main
-
