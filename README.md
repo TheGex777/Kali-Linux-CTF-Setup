@@ -1,4 +1,4 @@
-# Envirionment Setup
+# Environment Setup
 
 This is a bash script that I use before I perform any recon on a machine. It downloads my Cherry Tree template, creates directories to organize data, and allows the option to download privilege escalation tools for later use. 
 
