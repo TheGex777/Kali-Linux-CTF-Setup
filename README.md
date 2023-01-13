@@ -1,6 +1,6 @@
-# HTBAutomate
+# Envirionment Setup
 
-HTBAutomate is a simple bash script that automates the initial recon process for HackTheBox machines. It creates multiple directories for you to store any information gathered from the box. Additionally, the script allows you to optionally download other automation scripts (listed at the bottom of the page).
+This is a bash script that I use before I perform any external recon on a machine. Its purpose is to automatically create folders and download external tools so that I don't have to perform those tasks manually.
 
 
 Directory Information:
