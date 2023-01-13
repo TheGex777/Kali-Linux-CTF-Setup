@@ -5,9 +5,8 @@ main() {
   ip_address=$2
 
   mkdir -p "$PWD/$box_name/Exploits" "$PWD/$box_name/Screenshots" "$PWD/$box_name/Scripts" "$PWD/$box_name/notes"
-  echo "Parent directory and subdirectories created."
-  echo "Downloading Recon Template"
-  wget https://github.com/TheGex777/OSCP-Resources/raw/main/recon_template.ctb
+  echo "Parent directory and subdirectories created. Downloading Recon Template"
+  wget -q https://github.com/TheGex777/OSCP-Resources/raw/main/recon_template.ctb
 
   if prompt_yes_no "Do you want to download external scripts for automation (e.g linpeas, nmapAutomator)? (y/n): "; then
     echo "Downloading..." 
