@@ -20,7 +20,7 @@ Optional Scripts:
 
 https://github.com/21y4d/nmapAutomator
 
-https://github.com/carlospolop/PEASS-ng/blob/master/linPEAS/linpeas.sh
+https://github.com/carlospolop/PEASS-ng/releases
 
 https://github.com/rebootuser/LinEnum
 
@@ -28,4 +28,3 @@ https://github.com/mzet-/linux-exploit-suggester
 
 https://github.com/diego-treitos/linux-smart-enumeration
 
-https://github.com/carlospolop/PEASS-ng/blob/master/winPEAS/winPEASbat/winPEAS.bat
