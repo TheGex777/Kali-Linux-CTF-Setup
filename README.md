@@ -7,7 +7,7 @@ Directory Structure:
 
 Exploits - Used for copying exploit scripts found from exploitdb or the searchsploit tool.
 
-Screenshots - Used for storing screenshots (in case you were making a writeup).
+Screenshots - Used for storing screenshots. 
 
 Scripts - Used for storing automation scripts that were downloaded from Github.
 
