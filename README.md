@@ -1,15 +1,11 @@
 # Envirionment Setup
 
-This is a bash script that I use before I perform any external recon on a machine. Its purpose is to automatically create folders and download external tools so that I don't have to perform those tasks manually.
+This is a bash script that I use before I perform any recon on a machine. It downloads my Cherry Tree template, creates directories to organize data, and allows the option to download privilege escalation tools for later use. 
 
 
-Directory Information:
-
-Enumeration - Contains a variety of subdirectories for specific services that are commonly found on HackTheBox machines. 
+Directory Structure:
 
 Exploits - Used for copying exploit scripts found from exploitdb or the searchsploit tool.
-
-Flags - Used for storing User flags and Root Flags.
 
 Screenshots - Used for storing screenshots (in case you were making a writeup).
 
