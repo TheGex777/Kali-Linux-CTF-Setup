@@ -30,7 +30,7 @@ impacket-scripts
 sslscan
 whatweb
 python3-pip
-
+tnscmd10g
 )
 
 #Install the packages
