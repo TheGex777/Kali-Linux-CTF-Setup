@@ -1,31 +1,19 @@
-# Environment Setup
+# Kali Linux CTF Environment Setup
 
-This is a bash script that I use before I perform any recon on a machine. It downloads my Cherry Tree template, creates directories to organize data, and allows the option to download privilege escalation tools for later use. 
-
-
-Directory Structure:
-
-Exploits - Used for copying exploit scripts found from exploitdb or the searchsploit tool.
-
-Screenshots - Used for storing screenshots. 
-
-Scripts - Used for storing automation scripts that were downloaded from Github.
-
-Notes - Used for storing any notes you might have.
+This repo contains two scripts for you to use.
 
 
 
+kali_setup.sh 
+
+This will download and install the packages that you will need for conducting recon on a Windows or Linux Host. It will also download external tools from Github and create a directory structure to organize all of the utilities. Run this script inside the /home folder before you use the second script.
 
 
-Optional Scripts:
 
-https://github.com/21y4d/nmapAutomator
+kali_setup2.sh
 
-https://github.com/carlospolop/PEASS-ng/releases
+Use this script to create a directory structure for the machine you are conducting attacks against.  You can specify the name or IP address of the machine and it will do its magic.
 
-https://github.com/rebootuser/LinEnum
 
-https://github.com/mzet-/linux-exploit-suggester
 
-https://github.com/diego-treitos/linux-smart-enumeration
 
