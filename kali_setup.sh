@@ -56,7 +56,6 @@ mkdir -p ${MAIN_DIR}/${SUB_DIRa} ${MAIN_DIR}/${SUB_DIRb} ${MAIN_DIR}/${SUB_DIRc}
 cd ${MAIN_DIR}
 #Grab external recon tools with git or wget
 git clone https://github.com/21y4d/nmapAutomator.git
-#git clone https://github.com/Tib3rius/AutoRecon.git
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230702-bc7ce3ac/linpeas.sh
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230702-bc7ce3ac/winPEASany.exe
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64
