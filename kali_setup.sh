@@ -21,7 +21,7 @@ odat
 oscanner
 neo4j
 feroxbuster
-wkhtml2pdf
+wkhtmltopdf
 ldapsearch
 dirsearch
 gobuster
