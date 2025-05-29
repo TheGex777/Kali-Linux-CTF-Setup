@@ -16,4 +16,14 @@ sudo apt install docker.io docker-compose docker-cli
 sudo systemctl restart docker
 sudo usermod -aG docker kali
 
+## Usage
+1. Run kali_setup.sh: This script should be run from the /home folder before using the second script.
 
+```bash
+cd /home
+./kali_setup.sh
+
+2. Run kali_setup2.sh: This script can be placed in the directory of your choice and will create a directory structure for the CTF machine you want to exploit.
+
+```bash
+./kali_setup2.sh
