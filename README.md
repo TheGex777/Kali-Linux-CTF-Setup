@@ -28,3 +28,28 @@ cd /home
 ```bash
 ./kali_setup2.sh
 ```
+## Script Details
+
+- `kali_setup.sh`
+
+This script performs the following tasks:
+
+    Downloads and installs a variety of packages that can be installed natively to Kali Linux.
+    Creates a directory structure for downloaded tools that are not available in the Kali repo.
+    Sets up a Docker container for tools that take up a lot of space or aren't natively supported by Kali.
+
+### Tools Installed (Personal Favorites)
+
+    Terminator: Terminal emulator that allows you to quickly create multiple windows in one pane, with screenshotting and logging functionality.
+    Flameshot: Screenshot utility for capturing web pages or console output.
+    Ranger: Terminal-based file explorer for quick navigation and text file editing with nano.
+    autorecon: Automated framework for gathering information about a CTF machine.
+    nmapAutomator.sh: Bash script that automates thorough network port scanning.
+
+### Docker Container
+
+    ReconFTW: Automated framework used for real-life pentesting.
+
+- `kali_setup2.sh`
+
+This script automates the process of creating a directory structure for the CTF machine you want to exploit. It will prompt you for the machine's IP or hostname and ask if you want to run the autorecon script.
