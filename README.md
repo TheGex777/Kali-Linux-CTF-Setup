@@ -50,6 +50,6 @@ This script performs the following tasks:
 
     ReconFTW: Automated framework used for real-life pentesting.
 
-- `kali_setup2.sh`
+- `setup-box.sh`
 
 This script automates the process of creating a directory structure for the CTF machine you want to exploit. It will prompt you for the machine's IP or hostname and ask if you want to run the autorecon script.
